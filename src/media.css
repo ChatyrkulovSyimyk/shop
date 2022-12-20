@@ -1,0 +1,233 @@
+@media(max-width: 1200px){
+   header{
+        width: 900px;
+        margin: 0 1rem;
+        
+    }
+    header .presentation{
+        background-size: 900px ;
+        height: 420px;
+    }
+
+    .items{
+        max-width: 900px;
+    }
+    .items .item {
+        width: 280px;
+    }
+    .items .item .item-img img{
+        width: 260px;
+    }
+    .items .item .item-title{
+        font-size: 26px;
+        padding: .8rem .4rem;
+    }
+    .items .item .item-price{
+        font-size: 26px;
+    }
+    .items .item .btn{
+        font-size: 26px;
+        width: 280px;
+    }
+    .full-item .full-item-blog{
+        width: 600px;
+    }
+    .full-item .item-img img{
+        width: 500px;
+    }
+
+    .full-item .item-title{
+        font-size: 26px;
+        padding: .7rem .4rem;
+    }
+
+    .full-item .full-item-blog .item-descr{
+        font-size: 12px;
+    }
+    
+    .full-item .item-price{
+        font-size: 26px;
+    }
+
+    header .shop-cart{
+        top: 110px;
+        right: 0px;
+    }
+}
+
+@media(max-width: 890px){
+    header{
+        width: 600px;
+        margin: 0 .3rem;
+    }
+
+    header .header-nav{
+        padding: 1rem 0;
+    }
+    header .logo{
+        font-size: 34px;
+        font-weight: 900;
+    }
+
+    header .shop-btn{
+        width: 40px;
+        height: 40px;
+    }
+
+    header .presentation{
+        background-size: 600px;
+        height: 280px;
+        margin: 30px 0;
+    }
+
+    .categories{
+        font-size: 20px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 600px;
+    }
+
+    .categories div{
+        margin-left: 1rem;
+        margin-top: .4rem;
+    }
+
+    .items{
+        max-width: 600px;
+        margin: .6rem;
+    }
+    .items .item {
+        width: 230px;
+    }
+    .items .item .item-img img{
+        width: 200px;
+    }
+    .items .item .item-title{
+        font-size: 22px;
+        padding: .4rem .2rem;
+    }
+    .items .item .item-price{
+        font-size: 22px;
+    }
+    .items .item .btn{
+        font-size: 22px;
+        width: 230px;
+    }
+
+    .full-item .full-item-blog{
+        width: 500px;
+        padding: 20px;
+    }
+    .full-item .item-img img{
+        width: 300px;
+    }
+
+    .full-item .item-title{
+        font-size: 22px;
+        padding: .5rem .4rem;
+    }
+
+    .full-item .full-item-blog .item-descr{
+        font-size: 11px;
+    }
+    
+    .full-item .item-price{
+        font-size: 22px;
+    }
+
+    header .shop-cart{
+        top: 66px;
+        right: 0px;
+    }
+    footer p{
+        margin-left: 1rem;
+    }
+}
+
+@media(max-width: 700px){
+    header{
+        width: 540px;
+    }
+
+    header .header-nav{
+        padding: .6rem 0;
+    }
+    header .logo{
+        font-size: 28px;
+        font-weight: 900;
+    }
+
+    header .shop-btn{
+        width: 28px;
+        height: 28px;
+    }
+
+    header .presentation{
+        background-size: 540px;
+        height: 260px;
+        margin: 0;
+    }
+
+    .categories{
+        font-size: 18px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 500px;
+    }
+
+    .categories div{
+        margin-left: 1rem;
+        margin-top: .4rem;
+    }
+
+    .items{
+        max-width: 500px;
+    }
+    .items .item {
+        width: 200px;
+    }
+    .items .item .item-img img{
+        width: 180px;
+    }
+    .items .item .item-title{
+        font-size: 18px;
+        padding: .2rem .2rem;
+    }
+    .items .item .item-price{
+        font-size: 18px;
+    }
+    .items .item .btn{
+        font-size: 22px;
+        width: 200px;
+    }
+
+    .full-item .full-item-blog{
+        width: 500px;
+        padding: 20px;
+    }
+    .full-item .item-img img{
+        width: 300px;
+    }
+
+    .full-item .item-title{
+        font-size: 22px;
+        padding: .5rem .4rem;
+    }
+
+    .full-item .full-item-blog .item-descr{
+        font-size: 11px;
+    }
+    
+    .full-item .item-price{
+        font-size: 22px;
+    }
+
+    header .shop-cart{
+        top: 48px;
+        right: 0px;
+        width: 510px;
+    }
+    footer p{
+        margin-left: 1rem;
+    }
+}
